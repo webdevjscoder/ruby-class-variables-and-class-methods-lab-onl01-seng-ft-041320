@@ -12,6 +12,7 @@ class Song
   def initialize(name, artist, genre)
     @name = name
     @@artists = artist
+    binding.pry
     @@genres = genre
     @@count += 1
   end
