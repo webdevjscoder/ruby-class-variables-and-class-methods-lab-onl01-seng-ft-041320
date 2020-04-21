@@ -8,10 +8,10 @@ class Song
   @@artist_count = {}
   
   def initialize(name, artist, genre)
-    @@count += 1
     @name = name
     @@genres = genre
     @@artists = artist
+    @@count += 1
   end
   
   def self.count
